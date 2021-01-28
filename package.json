@@ -1,0 +1,8 @@
+{
+  "name": "buttons-and-text-animations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Dadarkp3/buttons-and-text-animations.git",
+  "author": "Daiane Silva <adm.daianesilva@gmail.com>",
+  "license": "MIT"
+}
