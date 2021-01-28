@@ -50,7 +50,57 @@ button {
   cursor: pointer;
   height: 100px;
   width: 290px;
-  font-size: 28px;
+  font-size: 12px;
+  font-weight: 100;
   border: none;
   margin: 15px;
+  background: none;
+  border: 3px solid white;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+button:hover {
+  font-weight: 700;
+}
+
+/* Buttons CSS Hover Animations */
+/* Button #1 */
+.button-1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  z-index: -1;
+  transform-origin: top left;
+  transform: rotate(90deg);
+  transition: all 1s ease-in-out;
+}
+
+.button-1:hover:before {
+  transform: rotate(0deg);
+}
+
+/* Button #2 */
+.button-2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  z-index: -1;
+  transform-origin: bottom right;
+  transform: rotate(90deg);
+  transition: all 1s ease-in-out;
+}
+
+.button-2:hover:before {
+  transform: rotate(0deg);
 }
