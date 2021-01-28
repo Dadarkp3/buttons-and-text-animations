@@ -60,10 +60,27 @@ button {
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
+  transition: all 1s;
 }
 
 button:hover {
   font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  color: white;
+  text-transform: lowercase;
+  text-transform: lowercase;
+  font-size: 12px;
+}
+
+.heart {
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  margin: 6px;
 }
 
 /* Buttons CSS Hover Animations */
@@ -103,4 +120,26 @@ button:hover {
 
 .button-2:hover:before {
   transform: rotate(0deg);
+}
+
+/* Button #3 */
+.button-3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
+}
+
+.button-3:hover:before {
+  transform: translateX(0);
+}
+
+.button-3:hover {
+  color: black;
 }
