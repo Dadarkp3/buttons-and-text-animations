@@ -202,13 +202,9 @@ footer {
   width: 100%;
   background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
   transform: translateY(-100%);
-  transition: all 1s ease-in-out;
+  transition: 1s;
 }
 
 .button-6:hover:before {
   transform: translateY(0);
-}
-
-.button-6:hover {
-  color: black;
 }
