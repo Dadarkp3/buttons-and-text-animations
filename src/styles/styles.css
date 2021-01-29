@@ -236,7 +236,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  content: "YEAH";
+  content: "button #8";
+  text-transform: uppercase;
   position: absolute;
   top: 0;
   left: 0;
@@ -253,7 +254,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  content: "YEAH";
+  content: "button #8";
+  text-transform: uppercase;
   position: absolute;
   top: 0;
   left: 0;
