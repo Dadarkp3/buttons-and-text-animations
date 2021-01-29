@@ -60,11 +60,6 @@ button {
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
-  transition: all 1s;
-}
-
-button:hover {
-  font-weight: 700;
 }
 
 footer {
@@ -73,7 +68,6 @@ footer {
   align-items: center;
   font-weight: 100;
   color: white;
-  text-transform: lowercase;
   text-transform: lowercase;
   font-size: 12px;
 }
@@ -207,4 +201,28 @@ footer {
 
 .button-6:hover:before {
   transform: translateY(0);
+}
+
+/* Button #7 */
+.button {
+  transition: all 0.3s !important;
+}
+.button-7:hover {
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+}
+
+.button-7:before {
+  content: "";
+  background: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 150%;
+  height: 50px;
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.3s;
+}
+
+.button-7:hover::before {
+  transform: translateX(100%) rotate(45deg);
 }
