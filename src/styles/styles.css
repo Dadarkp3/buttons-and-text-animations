@@ -226,3 +226,48 @@ footer {
 .button-7:hover::before {
   transform: translateX(100%) rotate(45deg);
 }
+
+/* Button #8 */
+.button-8 {
+  color: transparent;
+}
+.button-8:before {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "YEAH";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  z-index: -1;
+  transform: translate(-100%, 100%);
+  transition: all 0.5s;
+}
+
+.button-8:after {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "YEAH";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.button-8:hover:before {
+  transform: translate(0);
+}
+
+.button-8:hover:after {
+  transform: translate(100%, -100%);
+}
